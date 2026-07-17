@@ -444,6 +444,13 @@ section {
   align-items: flex-end;
 }
 
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .carousel-slide .fallback {
   position: absolute;
   inset: 0;
